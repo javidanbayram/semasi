@@ -49,10 +49,10 @@ window.PAGES = [
   /* 1 */ {
     layout: 'title',
     kicker: 'Bu albom',
-    title: 'Xatirələrimiz',
-    text: 'Hər səhifəsi bir xatirə, hər xatirəsi bir təbəssüm. Tələsmə — yavaş-yavaş vərəqlə...',
-    sign: '— Bizim Hekayəmiz',
-    badge: 'Xatirə Albomu',
+    title: 'Səmanın Albomu',
+    text: 'Hər səhifəsində onun gözəlliyi, işığı və təbəssümü var. Tələsmə — yavaş-yavaş vərəqlə...',
+    sign: '— Səma üçün',
+    badge: 'Səmanın Albomu',
   },
   /* 2 — Layout A */ {
     layout: 'polaroid',

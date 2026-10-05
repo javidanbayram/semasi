@@ -41,7 +41,7 @@
   const doodle = (name, cls, style = '') => `<span class="doodle ${cls}" style="${style}" aria-hidden="true">${SVG[name]}</span>`;
 
   /** Photo element: local file first, Unsplash demo fallback (wired in hydratePhotos). */
-  const img = (file, alt = 'Xatirə şəkli') =>
+  const img = (file, alt = 'Səmanın şəkli') =>
     `<img data-photo="${file}" alt="${alt}" draggable="false" decoding="async" />`;
 
   /** Glitter sprinkles for the sparkle layout. */
@@ -215,7 +215,7 @@
           <div class="cover__emblem foil-stroke">${SVG.gem}</div>
           <h2 class="cover__title foil">BİZİM HEKAYƏMİZ</h2>
           <div class="cover__rule foil-stroke" aria-hidden="true"><span></span>✦<span></span></div>
-          <p class="cover__subtitle foil">Xatirə Albomu</p>
+          <p class="cover__subtitle foil">Dünyanın Ən Gözəl Qızının Albomu</p>
         </div>
         <div class="cover__cue">
           <span class="cover__hand">${SVG.hand}</span>
