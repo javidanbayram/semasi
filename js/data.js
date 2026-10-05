@@ -49,10 +49,7 @@ window.PAGES = [
   /* 1 */ {
     layout: 'title',
     kicker: 'Bu albom',
-    title: 'Səmanın Albomu',
     text: 'Hər səhifəsində onun gözəlliyi, işığı və təbəssümü var. Tələsmə — yavaş-yavaş vərəqlə...',
-    sign: '— Səma üçün',
-    badge: 'Səmanın Albomu',
   },
   /* 2 — Layout A */ {
     layout: 'polaroid',
@@ -122,7 +119,7 @@ window.PAGES = [
     layout: 'film',
     photos: ['IMG_0819 (1).jpg', 'IMG_1945.jpg', 'IMG_1946.jpg'],
     title: 'Sənin kadrların',
-    caption: 'Sənin gözlənilməz anların, səmimi təbəssümlərin, unudulmaz axşamların.',
+    caption: 'Sənin gözlənilməz anların, səmimi təbəssümlərin.',
   },
   /* 12 — Layout C */ {
     layout: 'letter',

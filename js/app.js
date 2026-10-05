@@ -65,11 +65,11 @@
       <div class="pg pg-title">
         <div class="pg-title__frame">
           <p class="kicker">${p.kicker}</p>
-          <h2 class="script pg-title__name">${p.title}</h2>
+          ${p.title ? `<h2 class="script pg-title__name">${p.title}</h2>` : ''}
           ${doodle('swirl', 'pg-title__swirl')}
           <p class="serif-italic pg-title__text">${p.text}</p>
-          <p class="hand pg-title__sign">${p.sign}</p>
-          <span class="badge">${p.badge}</span>
+          ${p.sign ? `<p class="hand pg-title__sign">${p.sign}</p>` : ''}
+          ${p.badge ? `<span class="badge">${p.badge}</span>` : ''}
         </div>
         ${doodle('flower', 'd-flower', 'right:8%;bottom:6%')}
         ${doodle('sparkle', 'd-gold', 'left:12%;top:10%;width:5cqw')}
@@ -213,9 +213,7 @@
         <div class="cover__frame"><i></i><i></i><i></i><i></i></div>
         <div class="cover__content">
           <div class="cover__emblem foil-stroke">${SVG.gem}</div>
-          <h2 class="cover__title foil">BİZİM HEKAYƏMİZ</h2>
-          <div class="cover__rule foil-stroke" aria-hidden="true"><span></span>✦<span></span></div>
-          <p class="cover__subtitle foil">Dünyanın Ən Gözəl Qızının Albomu</p>
+          <h2 class="cover__title foil">DÜNYANIN ƏN GÖZƏL İNSANI SƏMANIN ALBOMU</h2>
         </div>
         <div class="cover__cue">
           <span class="cover__hand">${SVG.hand}</span>
