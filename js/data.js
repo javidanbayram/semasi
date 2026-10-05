@@ -64,7 +64,6 @@ window.PAGES = [
   /* 3 — Layout B */ {
     layout: 'dual',
     photos: ['5B07EF4B-70C3-434C-9B3A-2572E65C23A8.jpg', '803093AB-A2EB-4B75-916F-4875A97612C1.jpg'],
-    label: 'Xatirələrimiz',
     quote: '“Sənin gülümsədiyin hər an, dünyanın ən gözəl mənzərəsidir.”',
   },
   /* 4 — Layout C */ {
@@ -111,7 +110,6 @@ window.PAGES = [
   /* 9 — Layout B */ {
     layout: 'dual',
     photos: ['IMG_0814.jpg', 'IMG_0815.jpg'],
-    label: 'Qüsursuz',
     quote: '“Hər baxışında dünyanı daha gözəl edirsən.”',
   },
   /* 10 — Layout E */ {

@@ -100,7 +100,7 @@
         <div class="dual">
           <figure class="print dual__a">${img(p.photos[0])}<span class="gloss"></span></figure>
           <figure class="print dual__b">${img(p.photos[1])}<span class="gloss"></span></figure>
-          <span class="tape tape--label hand">${p.label}</span>
+          ${p.label ? `<span class="tape tape--label hand">${p.label}</span>` : ''}
         </div>
         <blockquote class="quote-sm">${p.quote}</blockquote>
         ${p.date ? `<p class="hand date">${p.date}</p>` : ''}
