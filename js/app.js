@@ -213,7 +213,7 @@
         <div class="cover__frame"><i></i><i></i><i></i><i></i></div>
         <div class="cover__content">
           <div class="cover__emblem foil-stroke">${SVG.gem}</div>
-          <h2 class="cover__title foil">DÜNYANIN ƏN GÖZƏL İNSANI SƏMANIN ALBOMU</h2>
+          <p class="cover__subtitle foil" style="margin-top: 4cqw;">Dünyanın Ən Gözəl İnsanı<br>Səmanın Albomu</p>
         </div>
         <div class="cover__cue">
           <span class="cover__hand">${SVG.hand}</span>
