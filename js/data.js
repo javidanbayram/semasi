@@ -147,7 +147,7 @@ window.PAGES = [
   /* 15 — Quote */ {
     layout: 'quote',
     quote: 'Gözəllik əşyalarda deyil, ona baxan gözlərdədir — sən isə hər ikisisən.',
-    author: 'Bizim Hekayəmiz',
+    author: 'Səmanın Albomu',
     note: '...həmişə belə parılda.',
   },
   /* 16 — Mosaic */ {
@@ -162,7 +162,7 @@ window.PAGES = [
   },
   /* 18 — Day 7 gateway */ {
     layout: 'finale',
-    text: 'Hekayəmiz hələ bitməyib... Əsl böyük final və həftənin son sirri sabah — 7-ci gün açılacaq. Bu gecə bütün yorğunluğunu burax və sadəcə dincəl. Səninlə həmişə fəxr edirəm ❤️',
+    text: 'Bu albom hələ bitməyib... Əsl böyük final və həftənin son sirri sabah — 7-ci gün açılacaq. Bu gecə bütün yorğunluğunu burax və sadəcə dincəl. Səninlə həmişə fəxr edirəm ❤️',
     seal: 'GÜN 7: TEZLİKLƏ',
   },
 ];
